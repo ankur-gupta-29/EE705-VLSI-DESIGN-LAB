@@ -17,7 +17,7 @@ download Vivado HLx 2020.2: All OS installer Single-File Download (TAR/GZIP - 43
 
 click on this link [Vivado 2020.2](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html)
 
-(target_to_image)=
+
 ```{figure} ./images/img1.png
 :align: center
 ```
