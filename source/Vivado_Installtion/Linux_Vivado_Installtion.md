@@ -34,32 +34,35 @@ sudo ./xsetup
 ```{figure} ./images/img2.png
 :align: center
 ```
-5. click next
+5. Click next
 
 ```{figure} ./images/img3.png
 :align: center
 ```
-6. click next
+6. Select vitis and click next
 
 ```{figure} ./images/img4.png
 :align: center
 ```
-7. click next
+7. Check checkboxs according to this image and click next.
 
 ```{figure} ./images/img5.png
 :align: center
 ```
-8. click next
+8. Check checkboxs and click next
 ```{figure} ./images/img6.png
 :align: center
 ```
-9. click next
+9. Change the loaction if need. Default location is  /tool/Xilinx.(Recommendation change the loaction to /home/Xilinx)
 ```{figure} ./images/img7.png
 :align: center
 ```
-10. click next
+10. Click next
 ```{figure} ./images/img8.png
 :align: center
+```
+```bash
+cd /home/xilinx
 ```
 
 
