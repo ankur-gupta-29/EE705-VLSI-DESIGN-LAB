@@ -28,6 +28,39 @@ click on this link [Vivado 2020.2](https://www.xilinx.com/support/download/index
 tar -xvf Xilinx_Unified_2020.2_1118_1232.tar.gz
 cd Xilinx_Unified_2020.2_1118_1232/
 chmod +x xsetup
-./xsetup
+sudo ./xsetup
 ```
+4.
+```{figure} ./images/img2.png
+:align: center
+```
+5.
+
+```{figure} ./images/img3.png
+:align: center
+```
+6.
+
+```{figure} ./images/img4.png
+:align: center
+```
+7.
+
+```{figure} ./images/img5.png
+:align: center
+```
+8.
+```{figure} ./images/img6.png
+:align: center
+```
+9.
+```{figure} ./images/img7.png
+:align: center
+```
+10.
+```{figure} ./images/img8.png
+:align: center
+```
+
+
 
