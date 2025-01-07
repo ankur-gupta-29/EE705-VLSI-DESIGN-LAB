@@ -20,7 +20,6 @@ click on this link [Vivado 2020.2](https://www.xilinx.com/support/download/index
 (target_to_image)=
 ```{figure} ./images/img1.png
 :align: center
-:width: 240px
 ```
 
 
