@@ -30,34 +30,34 @@ cd Xilinx_Unified_2020.2_1118_1232/
 chmod +x xsetup
 sudo ./xsetup
 ```
-4.
+4. Start Screen Visible
 ```{figure} ./images/img2.png
 :align: center
 ```
-5.
+5. click next
 
 ```{figure} ./images/img3.png
 :align: center
 ```
-6.
+6. click next
 
 ```{figure} ./images/img4.png
 :align: center
 ```
-7.
+7. click next
 
 ```{figure} ./images/img5.png
 :align: center
 ```
-8.
+8. click next
 ```{figure} ./images/img6.png
 :align: center
 ```
-9.
+9. click next
 ```{figure} ./images/img7.png
 :align: center
 ```
-10.
+10. click next
 ```{figure} ./images/img8.png
 :align: center
 ```
