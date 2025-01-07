@@ -1,7 +1,7 @@
 # Linux Vivado Installtion
 Vivado Installtion process
 
-open terminal and type these commands
+1. Open terminal and type these commands
 ```bash
 sudo apt update & sudo apt upgrade
 sudo apt install build-essential
@@ -12,7 +12,7 @@ sudo apt install python3-pip
 sudo apt install libtinfo6 libncurses6
 ```
 
-download Vivado HLx 2020.2: All OS installer Single-File Download (TAR/GZIP - 43.07 GB)
+2. Download Vivado HLx 2020.2: All OS installer Single-File Download (TAR/GZIP - 43.07 GB)
 
 
 click on this link [Vivado 2020.2](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html)
@@ -21,5 +21,13 @@ click on this link [Vivado 2020.2](https://www.xilinx.com/support/download/index
 ```{figure} ./images/img1.png
 :align: center
 ```
+3. After downloading go the folder where you have downloaded the tar.gz file.Open terminal on same location run these commands.
 
+```bash
+# change file name if it is different name
+tar -xvf Xilinx_Unified_2020.2_1118_1232.tar.gz
+cd Xilinx_Unified_2020.2_1118_1232/
+chmod +x xsetup
+./xsetup
+```
 
