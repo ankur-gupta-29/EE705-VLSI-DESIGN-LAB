@@ -12,8 +12,11 @@ sudo apt install python3-pip
 sudo apt install libtinfo6 libncurses6
 ```
 
-download 2020.2 Vivado HLx 2020.2: All OS installer Single-File Download (TAR/GZIP - 43.07 GB)
-
-[Vivado 2020.2](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html)
+download Vivado HLx 2020.2: All OS installer Single-File Download (TAR/GZIP - 43.07 GB)
+
+
+click on this link [Vivado 2020.2](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html)
+
+![](images/img1.png)
 
 
