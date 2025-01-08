@@ -47,7 +47,10 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="RISC-V%20tools%20Installtion.html">RISC-V tools Installtion</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Vivado_Installtion/index.html">Vivado Installtion</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">32-bit Counter testing using ILA,VIO</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">32-bit Counter testing using ILA,VIO</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#objective">Objective</a></li>
+</ul>
+</li>
 </ul>
 
         </div>
@@ -76,6 +79,30 @@
              
   <section id="bit-counter-testing-using-ila-vio">
 <h1>32-bit Counter testing using ILA,VIO<a class="headerlink" href="#bit-counter-testing-using-ila-vio" title="Link to this heading"></a></h1>
+<section id="objective">
+<h2>Objective<a class="headerlink" href="#objective" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Vivado project creation.</p></li>
+<li><p>Creating a verilog file or add verilog files.</p></li>
+<li><p>Test the verilog code with ILA,VIO blocks.</p></li>
+</ul>
+<div class="highlight-verilog notranslate"><div class="highlight"><pre><span></span><span class="k">module</span><span class="w"> </span><span class="n">and_gate</span><span class="w"> </span><span class="p">(</span>
+<span class="w">    </span><span class="k">input</span><span class="w"> </span><span class="n">a</span><span class="p">,</span>
+<span class="w">    </span><span class="k">input</span><span class="w"> </span><span class="n">b</span><span class="p">,</span>
+<span class="w">    </span><span class="k">output</span><span class="w"> </span><span class="n">y</span>
+<span class="p">);</span>
+<span class="w">    </span><span class="k">assign</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="n">b</span><span class="p">;</span>
+<span class="k">endmodule</span>
+</pre></div>
+</div>
+<figure class="align-center" id="id1">
+<a class="reference internal image-reference" href="_images/xilinx_logo.png"><img alt="Centered Image" src="_images/xilinx_logo.png" style="width: 50%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Fig. 1 </span><span class="caption-text">This is the caption for the image.</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
 </section>
 
 
