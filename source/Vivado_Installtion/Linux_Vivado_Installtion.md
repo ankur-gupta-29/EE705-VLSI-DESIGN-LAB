@@ -21,7 +21,7 @@ click on this link [Vivado 2020.2](https://www.xilinx.com/support/download/index
 ```{figure} ./images/img1.png
 :align: center
 ```
-3. After downloading go the folder where you have downloaded the tar.gz file.Open terminal on same location run these commands.
+3. After downloading go the folder where you have downloaded the tar.gz file.Open terminal on same location and run these commands.
 
 ```bash
 # change file name if it is different name
@@ -53,7 +53,7 @@ sudo ./xsetup
 ```{figure} ./images/img6.png
 :align: center
 ```
-9. Change the loaction if need. Default location is  /tool/Xilinx.(Recommendation change the loaction to /home/Xilinx)
+9. Change the loaction if needed. Default location is  /tool/Xilinx.(Recommendation change the loaction to /home/Xilinx)
 ```{figure} ./images/img7.png
 :align: center
 ```
@@ -66,12 +66,12 @@ sudo ./xsetup
 
 ```bash
 sudo ./tools/Xilinx/Vivado/2020.2/data/xicom/cable_drivers/lin64/install_script/install_drivers/install_drivers
-#if this command not have executable permission then run this command on terminal after that you run above command
+#if the above  command does not have executable permission then run the below  command first and then run the above again
 chmod +x /tools/Xilinx/Vivado/2020.2/data/xicom/cable_drivers/lin64/install_script/install_drivers/install_drivers
 ```
 ```bash
 sudo ./tools/Xilinx/Vitis/2020.2/scripts/installLibs.sh
-#if this command not have executable permission then run this command on terminal after that you run above command
+#if the above  command does not have executable permission then run the below  command first and then run the above again
 chmod +x /tools/Xilinx/Vitis/2020.2/scripts/installLibs.sh
 ```
 13. Run these commands on terminal. Change location according to your path
