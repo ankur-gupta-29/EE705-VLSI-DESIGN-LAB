@@ -21,6 +21,7 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Tutorial 1" href="../Tutorial-1.html" />
     <link rel="prev" title="Windows Vivado Installtion" href="Windows_Vivado_Installtion.html" /> 
 </head>
 
@@ -45,12 +46,13 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../UltraEmbedded%20Installtion.html">UltraEmbedded Installtion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../RISC-V%20tools%20Installtion.html">RISC-V tools Installtion</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Vivado Installtion</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="Windows_Vivado_Installtion.html">Windows Vivado Installtion</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Linux Vivado Installtion</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="../Tutorial-1.html">Tutorial 1</a></li>
 </ul>
 
         </div>
@@ -81,7 +83,9 @@
   <section id="linux-vivado-installtion">
 <h1>Linux Vivado Installtion<a class="headerlink" href="#linux-vivado-installtion" title="Link to this heading"></a></h1>
 <p>Vivado Installtion process</p>
-<p>open terminal and type these commands</p>
+<ol class="arabic simple">
+<li><p>Open terminal and type these commands</p></li>
+</ol>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>apt<span class="w"> </span>update<span class="w"> </span><span class="p">&amp;</span><span class="w"> </span>sudo<span class="w"> </span>apt<span class="w"> </span>upgrade
 sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>build-essential
 sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>libstdc++6:i386
@@ -91,9 +95,98 @@ sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> <
 sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>libtinfo6<span class="w"> </span>libncurses6
 </pre></div>
 </div>
-<p>download Vivado HLx 2020.2: All OS installer Single-File Download (TAR/GZIP - 43.07 GB)</p>
+<ol class="arabic simple" start="2">
+<li><p>Download Vivado HLx 2020.2: All OS installer Single-File Download (TAR/GZIP - 43.07 GB)</p></li>
+</ol>
 <p>click on this link <a class="reference external" href="https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html">Vivado 2020.2</a></p>
-<p><img alt="" src="../_images/img1.png" /></p>
+<figure class="align-center">
+<img alt="../_images/img1.png" src="../_images/img1.png" />
+</figure>
+<ol class="arabic simple" start="3">
+<li><p>After downloading go the folder where you have downloaded the tar.gz file.Open terminal on same location and run these commands.</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># change file name if it is different name</span>
+tar<span class="w"> </span>-xvf<span class="w"> </span>Xilinx_Unified_2020.2_1118_1232.tar.gz
+<span class="nb">cd</span><span class="w"> </span>Xilinx_Unified_2020.2_1118_1232/
+chmod<span class="w"> </span>+x<span class="w"> </span>xsetup
+sudo<span class="w"> </span>./xsetup
+</pre></div>
+</div>
+<ol class="arabic simple" start="4">
+<li><p>Start Screen Visible</p></li>
+</ol>
+<figure class="align-center">
+<img alt="../_images/img2.png" src="../_images/img2.png" />
+</figure>
+<ol class="arabic simple" start="5">
+<li><p>Click next</p></li>
+</ol>
+<figure class="align-center">
+<img alt="../_images/img3.png" src="../_images/img3.png" />
+</figure>
+<ol class="arabic simple" start="6">
+<li><p>Select vitis and click next</p></li>
+</ol>
+<figure class="align-center">
+<img alt="../_images/img4.png" src="../_images/img4.png" />
+</figure>
+<ol class="arabic simple" start="7">
+<li><p>Check checkboxes according to this image and click next.</p></li>
+</ol>
+<figure class="align-center">
+<img alt="../_images/img5.png" src="../_images/img5.png" />
+</figure>
+<ol class="arabic simple" start="8">
+<li><p>Check checkboxes and click next</p></li>
+</ol>
+<figure class="align-center">
+<img alt="../_images/img6.png" src="../_images/img6.png" />
+</figure>
+<ol class="arabic simple" start="9">
+<li><p>Change the loaction if needed. Default location is  /tool/Xilinx.(Recommendation change the loaction to /home/Xilinx)</p></li>
+</ol>
+<figure class="align-center">
+<img alt="../_images/img7.png" src="../_images/img7.png" />
+</figure>
+<ol class="arabic simple" start="10">
+<li><p>Click next and wait for Installtion.</p></li>
+</ol>
+<figure class="align-center">
+<img alt="../_images/img8.png" src="../_images/img8.png" />
+</figure>
+<ol class="arabic simple" start="11">
+<li><p>After installtion run these commands on terminal and change location according to your location</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>./tools/Xilinx/Vivado/2020.2/data/xicom/cable_drivers/lin64/install_script/install_drivers/install_drivers
+<span class="c1">#if the above  command does not have executable permission then run the below  command first and then run the above again</span>
+chmod<span class="w"> </span>+x<span class="w"> </span>/tools/Xilinx/Vivado/2020.2/data/xicom/cable_drivers/lin64/install_script/install_drivers/install_drivers
+</pre></div>
+</div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>./tools/Xilinx/Vitis/2020.2/scripts/installLibs.sh
+<span class="c1">#if the above  command does not have executable permission then run the below  command first and then run the above again</span>
+chmod<span class="w"> </span>+x<span class="w"> </span>/tools/Xilinx/Vitis/2020.2/scripts/installLibs.sh
+</pre></div>
+</div>
+<ol class="arabic simple" start="13">
+<li><p>Run these commands on terminal. Change location according to your path</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;export PATH=&quot;$PATH:/tools/Xilinx/Vitis/2020.2/bin&quot;&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.bashrc
+<span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;export PATH=&quot;$PATH:/tools/Xilinx/Vivado/2020.2/bin&quot;&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.bashrc
+<span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;export PATH=&quot;$PATH:/tools/Xilinx/Vitis_HLS/2020.2/bin&quot;&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.bashrc
+<span class="nb">source</span><span class="w"> </span>~/.bashrc
+<span class="nb">echo</span><span class="w"> </span><span class="nv">$PATH</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="14">
+<li><p>Open new terminal and type vivado in terminal</p></li>
+</ol>
+<figure class="align-center">
+<img alt="../_images/img9.png" src="../_images/img9.png" />
+</figure>
+<ol class="arabic simple" start="15">
+<li><p>Download Board file using click on this link :- <a class="reference external" href="https://github.com/ankur-gupta-29/EE705-VLSI-DESIGN-LAB/raw/baa2e938296cb95ad102f738f160ecfa36a92ae5/source/board_files/pynq-z2.zip">Pynq-z2</a>
+. Unzip the .zip file and copy that folder (named pynq-z2) to Location :  /tools/Xilinx/Vivado/2020.2/data/boards/board_files/</p></li>
+</ol>
 </section>
 
 
@@ -101,6 +194,7 @@ sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> <
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="Windows_Vivado_Installtion.html" class="btn btn-neutral float-left" title="Windows Vivado Installtion" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../Tutorial-1.html" class="btn btn-neutral float-right" title="Tutorial 1" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
