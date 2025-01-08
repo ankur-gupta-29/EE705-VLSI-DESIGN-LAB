@@ -62,12 +62,28 @@ sudo ./xsetup
 :align: center
 ```
 
-11. After installtion run these commands and change location according to your location
+11. After installtion run these commands on terminal and change location according to your location
 
 ```bash
 sudo ./tools/Xilinx/Vivado/2020.2/data/xicom/cable_drivers/lin64/install_script/install_drivers/install_drivers
 #if this command not have executable permission then run this command on terminal after that you run above command
 chmod +x /tools/Xilinx/Vivado/2020.2/data/xicom/cable_drivers/lin64/install_script/install_drivers/install_drivers
 ```
+```bash
+sudo ./tools/Xilinx/Vitis/2020.2/scripts/installLibs.sh
+#if this command not have executable permission then run this command on terminal after that you run above command
+chmod +x /tools/Xilinx/Vitis/2020.2/scripts/installLibs.sh
+```
+13. Run these commands on terminal. Change location according to your path
 
-
+```bash
+echo 'export PATH="$PATH:/tools/Xilinx/Vitis/2020.2/bin"' >> ~/.bashrc
+echo 'export PATH="$PATH:/tools/Xilinx/Vivado/2020.2/bin"' >> ~/.bashrc
+echo 'export PATH="$PATH:/tools/Xilinx/Vitis_HLS/2020.2/bin"' >> ~/.bashrc
+source ~/.bashrc
+echo $PATH
+```
+14. Open new terminal and type vivado in terminal
+```{figure} ./images/img9.png
+:align: center
+```
