@@ -7,6 +7,9 @@ Objective
 - Vivado project creation.
 - Creating a verilog file or add verilog files.
 - Test the verilog code with ILA,VIO blocks.
+
+Visit the `Pynq-Z2 website <https://www.tulembedded.com/FPGA/ProductsPYNQ-Z2.html>`_ for more information about User Manual,Master XDC,Schematics.
+
 .. code-block:: verilog
 
    module and_gate (
