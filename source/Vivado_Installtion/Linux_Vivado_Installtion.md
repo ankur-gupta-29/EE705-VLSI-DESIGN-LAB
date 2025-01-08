@@ -57,13 +57,17 @@ sudo ./xsetup
 ```{figure} ./images/img7.png
 :align: center
 ```
-10. Click next
+10. Click next and wait for Installtion.
 ```{figure} ./images/img8.png
 :align: center
 ```
-```bash
-cd /home/xilinx
-```
 
+11. After installtion run these commands and change location according to your location
+
+```bash
+sudo ./tools/Xilinx/Vivado/2020.2/data/xicom/cable_drivers/lin64/install_script/install_drivers/install_drivers
+#if this command not have executable permission then run this command on terminal after that you run above command
+chmod +x /tools/Xilinx/Vivado/2020.2/data/xicom/cable_drivers/lin64/install_script/install_drivers/install_drivers
+```
 
 
