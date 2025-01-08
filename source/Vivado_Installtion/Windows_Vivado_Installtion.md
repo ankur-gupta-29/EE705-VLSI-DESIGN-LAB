@@ -12,6 +12,7 @@ click on this link [Vivado 2020.2](https://www.xilinx.com/support/download/index
 :align: center
 ```
 After clicking for download, you will be prompted to log in. If you don't have an account, please create one to proceed. If you already have an account, simply log in.
+
 2. After downloading go the folder where you have downloaded the tar.gz file and extract that.
 
 3. Start Screen Visible
