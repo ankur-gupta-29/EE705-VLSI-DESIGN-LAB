@@ -87,3 +87,4 @@ echo $PATH
 ```{figure} ./images/img9.png
 :align: center
 ```
+15. Download Board file using click on this link [Pynq-z2](https://github.com/ankur-gupta-29/EE705-VLSI-DESIGN-LAB/raw/baa2e938296cb95ad102f738f160ecfa36a92ae5/source/board_files/pynq-z2.zip)
