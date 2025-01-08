@@ -27,12 +27,12 @@ click on this link [Vivado 2020.2](https://www.xilinx.com/support/download/index
 ```{figure} ./Window_images/img3.png
 :align: center
 ```
-6. Check checkboxs according to this image and click next.
+6. Check checkboxes according to this image and click next.
 
 ```{figure} ./Window_images/img4.png
 :align: center
 ```
-7. Check checkboxs and click next
+7. Check checkboxes and click next
 ```{figure} ./Window_images/img5.png
 :align: center
 ```

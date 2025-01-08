@@ -44,12 +44,12 @@ sudo ./xsetup
 ```{figure} ./images/img4.png
 :align: center
 ```
-7. Check checkboxs according to this image and click next.
+7. Check checkboxes according to this image and click next.
 
 ```{figure} ./images/img5.png
 :align: center
 ```
-8. Check checkboxs and click next
+8. Check checkboxes and click next
 ```{figure} ./images/img6.png
 :align: center
 ```
