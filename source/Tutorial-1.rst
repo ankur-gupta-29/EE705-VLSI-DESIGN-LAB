@@ -9,9 +9,7 @@
   - Test the verilog code with ILA,VIO blocks.
 
 Visit the `Pynq-Z2 website <https://www.tulembedded.com/FPGA/ProductsPYNQ-Z2.html>`_ for more information about User Manual,Master XDC,Schematics.
-..youtube:: aoMdoZwbjI8
-   :width: 640
-   :height: 480
+
 ..
   .. code-block:: verilog
 
@@ -30,3 +28,12 @@ Visit the `Pynq-Z2 website <https://www.tulembedded.com/FPGA/ProductsPYNQ-Z2.htm
 
    This is the caption for the image.
 
+
+.. raw:: html
+
+    <embed>
+         <iframe width="640" height="480" src="https://www.youtube.com/embed/aoMdoZwbjI8" frameborder="0" allowfullscreen></iframe>
+         </br>
+         </br>
+    </embed>
+refer to Prof. Nitin Chandrachoodan's video for ILA,VIO. We will also be adding the tutorial material that was covered in class.

@@ -21,6 +21,8 @@ click on this link [Vivado 2020.2](https://www.xilinx.com/support/download/index
 ```{figure} ./images/img1.png
 :align: center
 ```
+After clicking for download, you will be prompted to log in. If you don't have an account, please create one to proceed. If you already have an account, simply log in
+
 3. After downloading go the folder where you have downloaded the tar.gz file.Open terminal on same location and run these commands.
 
 ```bash
@@ -53,7 +55,7 @@ sudo ./xsetup
 ```{figure} ./images/img6.png
 :align: center
 ```
-9. Change the loaction if needed. Default location is  /tool/Xilinx.(Recommendation change the loaction to /home/Xilinx)
+9. Change the loaction if needed. Default location is  /tool/Xilinx.(Recommendation change the loaction to /home/username/Xilinx  change 'username' with your username in linux )
 ```{figure} ./images/img7.png
 :align: center
 ```
