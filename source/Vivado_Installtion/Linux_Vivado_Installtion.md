@@ -55,7 +55,7 @@ sudo ./xsetup
 ```{figure} ./images/img6.png
 :align: center
 ```
-9. Change the loaction if needed. Default location is  /tool/Xilinx.(Recommendation change the loaction to /home/<username>/Xilinx)
+9. Change the loaction if needed. Default location is  /tool/Xilinx.(Recommendation change the loaction to /home/username/Xilinx  change 'username' with your username in linux )
 ```{figure} ./images/img7.png
 :align: center
 ```
