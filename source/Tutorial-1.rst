@@ -37,4 +37,4 @@ Visit the `Pynq-Z2 website <https://www.tulembedded.com/FPGA/ProductsPYNQ-Z2.htm
          </br>
     </embed>
 refer to Prof. Nitin Chandrachoodan's video for ILA,VIO.
-.. We will also be adding the tutorial material that was covered in class.
+
