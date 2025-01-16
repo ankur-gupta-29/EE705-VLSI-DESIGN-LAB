@@ -12,7 +12,7 @@ RISCV Additional Resources
          </br>
          </br>
     </embed>
-It covers the following topics- Introduction to Computer Architecture, RISC vs CISC, RISCV, Applications of RISC.(by Prof. David Patterson)
+It covers the following topics- Introduction to Computer Architecture, RISC vs CISC, RISCV, Applications of RISC. (by Prof. David Patterson)
 
 - RISC Architecture + Pipelining
 
@@ -23,4 +23,4 @@ It covers the following topics- Introduction to Computer Architecture, RISC vs C
          </br>
          </br>
     </embed>
-It covers- MIPS, Unpipelined vs Pipelined, Pipelining in Circuits, RISC Datapath.(by Prof. John Jose)
+It covers- MIPS, Unpipelined vs Pipelined, Pipelining in Circuits, RISC Datapath. (by Prof. John Jose)
