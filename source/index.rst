@@ -15,6 +15,8 @@ Course Related Material on EE705 is available here.
    Vivado_Installtion/index
    Tutorial-1
    Additional Resource on RISC-V
+   Additional Resource on AXI
+   Issue and Debug
 
 
 
