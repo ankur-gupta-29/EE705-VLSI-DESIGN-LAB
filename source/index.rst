@@ -16,6 +16,7 @@ Course Related Material on EE705 is available here.
    Tutorial-1
    Additional Resource on RISC-V
    Additional Resource on AXI
+   Openlane Installtion Linux
    Issue and Debug
 
 
