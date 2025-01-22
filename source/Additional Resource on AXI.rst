@@ -23,6 +23,9 @@ Additional Resource on AXI
     </embed>
 (by Prof.Nitin Chandrachoodan)
 
+
+click on this link
+
 `AXI Documentation`_
 
 .. _AXI Documentation: https://developer.arm.com/-/media/Arm%20Developer%20Community/PDF/Learn%20the%20Architecture/102202_0100_01_Introduction_to_AMBA_AXI.pdf?revision=369ad681-f926-47b0-81be-42813d39e132
