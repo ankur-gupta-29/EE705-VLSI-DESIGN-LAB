@@ -18,6 +18,7 @@ Course Related Material on EE705 is available here.
    Additional Resource on AXI
    Openlane Installtion Linux
    Issue and Debug
+   ASIC Resources
 
 
 
