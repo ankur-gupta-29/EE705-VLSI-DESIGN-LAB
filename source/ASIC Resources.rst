@@ -2,6 +2,6 @@
 ASIC Resources
 ===============
 
-`AXI Documentation`_
+`awesome-opensource-asic-resources`_
 
-.. _AXI Documentation: https://github.com/mattvenn/awesome-opensource-asic-resources?tab=readme-ov-file
+.. _awesome-opensource-asic-resources: https://github.com/mattvenn/awesome-opensource-asic-resources?tab=readme-ov-file
